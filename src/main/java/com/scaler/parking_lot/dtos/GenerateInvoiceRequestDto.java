@@ -3,7 +3,7 @@ package com.scaler.parking_lot.dtos;
 
 public class GenerateInvoiceRequestDto {
     
-	private long ticketId;
+    private long ticketId;
     private long gateId;
 
     public long getTicketId() {

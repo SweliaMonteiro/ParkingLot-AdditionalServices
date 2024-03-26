@@ -3,7 +3,7 @@ package com.scaler.parking_lot.models;
 
 public enum GateType {
     
-	ENTRY,
+    ENTRY,
     EXIT
 
 }

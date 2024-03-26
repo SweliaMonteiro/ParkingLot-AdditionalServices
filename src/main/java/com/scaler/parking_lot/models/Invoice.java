@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Invoice extends BaseModel{
     
-	private Ticket ticket;
+    private Ticket ticket;
     private Gate gate;
     private ParkingAttendant parkingAttendant;
     private Date exitTime;

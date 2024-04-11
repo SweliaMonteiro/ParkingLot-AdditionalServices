@@ -49,12 +49,3 @@ For parking fee we have 2 models:
 To achieve these requirements we need to do 2 things:
 - Modify the already implemented ticket generation logic to include additional services. I.e. if a customer is opting for additional services then details related to the additional services should be stored in the ticket.
 - Implement functionality for generating invoice, it should include the parking fee and the additional services fee.
-
-## Instructions
-1. We need to modify the `generateTicket` inside `TicketController` class to support additional services.
-2. We need to implement the `createInvoice` inside the `InvoiceController` class to generate the invoice.
-3. Refer the dtos package to understand the input and output of the functionality we are implementing.
-4. Implement the `InvoiceService`,`TicketService` and relevant repositories and strategies to achieve the requirements.
-5. Refer the `TestControllers` to understand how the functionality will be tested.
-6. Do not modify existing methods inside interfaces, feel to add new if required.
-7. We will be using in memory database for this assignment.

@@ -25,7 +25,7 @@ Details for the addtionals services are as follows:
 5. EV car charging
     - Supported Vehicle Types: EV car
     - Fee: 200
-      If a vehicle type is not supported for a particular service, then the service should not be offered to the customer i.e. ticket should not be generated.
+    If a vehicle type is not supported for a particular service, then the service should not be offered to the customer i.e. ticket should not be generated.
 
 ### Invoice generation
 We want to generate an invoice for the customer when they are exiting the parking lot. The invoice should include the parking fee and the additional services fee.

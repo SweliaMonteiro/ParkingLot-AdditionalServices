@@ -61,5 +61,6 @@ public class InvoiceService {
 		invoice.setAmount(amount);
 		return invoiceRepository.save(invoice);
 	}
+
 }
 
